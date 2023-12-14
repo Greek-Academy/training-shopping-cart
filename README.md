@@ -83,7 +83,7 @@ yarn jest
 ※ `go` ディレクトリで実行してください
 
 ```bash
-go test
+go test ./src -v
 ```
 
 ## Note
