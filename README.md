@@ -58,6 +58,21 @@ https://go.dev/doc/install
 cd go
 ```
 
+### PHP
+
+`PHP` をインストールしておいてください
+https://www.php.net/manual/ja/install.php
+
+```bash
+# mac brewパッケージを使用する場合
+brew install php
+```
+
+1. 作業ディレクトリへ
+```bash
+cd php
+```
+
 ## Unit Test
 
 メソッド名、引数、返り値等を変更した場合、テストが失敗する可能性があります。
@@ -84,6 +99,14 @@ yarn jest
 
 ```bash
 go test ./src -v
+```
+
+### PHP
+
+※ `php` ディレクトリで実行してください
+
+```bash
+./vendor/bin/phpunit --testdox tests
 ```
 
 ## Note
