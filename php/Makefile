@@ -3,5 +3,5 @@ muhoho: ## ( ^ω^)ﾑﾎﾎ
 	@echo "( ^ω^)ﾑﾎﾎ"
 
 .PHONY: test
-test: ## ( ^ω^)ﾑﾎﾎ
+test: ## PHP Unit
 	@./vendor/bin/phpunit --testdox tests
