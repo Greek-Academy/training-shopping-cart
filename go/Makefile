@@ -4,4 +4,4 @@ muhoho: ## ( ^ω^)ﾑﾎﾎ
 
 .PHONY: test
 test: ## go test
-	@cd src && go test
+	@go test ./src -v
