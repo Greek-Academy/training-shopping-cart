@@ -23,15 +23,16 @@
 
 ### TypeScript
 
-`Node.js` をインストールしておいてください
+#### 0. 下準備  
+`Node.js` をインストールしておいてください  
 https://nodejs.org/en
 
-1. 作業ディレクトリへ移動
+#### 1. 作業ディレクトリへ移動
 ```bash
 cd typescript
 ```
 
-2. パッケージのインストール（下記いずれか）
+#### 2. パッケージのインストール（下記いずれか）
 
 - npm
 - [pnpm](https://pnpm.io/installation)
@@ -50,27 +51,36 @@ yarn install
 
 ### Go
 
-`Go` をインストールしておいてください
+#### 0. 下準備  
+`Go` をインストールしておいてください  
 https://go.dev/doc/install
 
-1. 作業ディレクトリへ
+#### 1. 作業ディレクトリへ
 ```bash
 cd go
 ```
 
 ### PHP
 
-`PHP` をインストールしておいてください
+#### 0. 下準備  
+`PHP` をインストールしておいてください  
 https://www.php.net/manual/ja/install.php
 
 ```bash
 # mac brewパッケージを使用する場合
 brew install php
+brew install composer
 ```
 
-1. 作業ディレクトリへ
+#### 1. 作業ディレクトリへ
 ```bash
 cd php
+```
+
+#### 2. パッケージのインストール
+
+```bash
+composer install
 ```
 
 ## Unit Test
