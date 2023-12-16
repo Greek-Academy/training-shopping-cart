@@ -7,7 +7,7 @@
 
 ## Problem
 
-[ショッピングカートのクラス](src/shoppingCart.ts)と、その関係処理をリファクタリングしましょう。
+[ショッピングカートのクラス](typescript/src/shoppingCart.ts)と、その関係処理をリファクタリングしましょう。
 
 ## Documents
 
